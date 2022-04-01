@@ -8,11 +8,11 @@ function ListOfProducts() {
         <div>
             <h2>Grocery List</h2>
             <ul>
-                <li>Cheese</li>
-                <li>Bread</li>
-                <li>Lime</li>
-                <li>Apple</li>
-                <li>Lemonade</li>
+                <li className="red">Cheese</li>
+                <li className="orange">Bread</li>
+                <li className="green">Lime</li>
+                <li className="brown">Apple</li>
+                <li className="blue">Lemonade</li>
             </ul>
         </div>
     )
