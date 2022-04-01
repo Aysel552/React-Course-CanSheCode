@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: yellowgreen;
+}
+
+h1,p, h3,li{
+  color: #fff;
+}
