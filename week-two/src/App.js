@@ -1,8 +1,10 @@
 
 import './App.css';
+// import { Followers } from './Followers';
+import { Users } from './Users';
 // import DatingProfile from './DatingProfile';
 // import GroceryShop from './GroceryShop';
-import { Likes } from './Likes';
+// import { Likes } from './Likes';
 // import Instagram from './Instagram';
 
 function App() {
@@ -27,7 +29,9 @@ function App() {
         <GroceryShop image="https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3VjdW1iZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1200&q=60" title="Farm Cucumber" price="$17" description="Freshly grabbed from the garden" />
       </div> */}
 
-      <Likes />
+      {/* <Likes /> */}
+      {/* <Followers /> */}
+      <Users />
       </div>
   );
 }
