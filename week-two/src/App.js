@@ -1,7 +1,8 @@
 
 import './App.css';
 // import DatingProfile from './DatingProfile';
-import GroceryShop from './GroceryShop';
+// import GroceryShop from './GroceryShop';
+import { Likes } from './Likes';
 // import Instagram from './Instagram';
 
 function App() {
@@ -20,11 +21,13 @@ function App() {
         
       </div> */}
 
-      <div>
+      {/* <div>
         <GroceryShop image="https://images.unsplash.com/photo-1543168256-418811576931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1200&q=60" title="Bio Products" price="$15" description="Bio and healthy" />
         <GroceryShop image="https://images.unsplash.com/photo-1561136594-7f68413baa99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dG9tYXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60" title="Freshy Veggies" price="$20" description="Greeny and Healthy" />
         <GroceryShop image="https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3VjdW1iZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1200&q=60" title="Farm Cucumber" price="$17" description="Freshly grabbed from the garden" />
-      </div>
+      </div> */}
+
+      <Likes />
       </div>
   );
 }
