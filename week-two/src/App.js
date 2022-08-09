@@ -1,38 +1,36 @@
 
 import './App.css';
-// import { Followers } from './Followers';
-import { Users } from './Users';
+import { Likes } from './Likes';
 // import DatingProfile from './DatingProfile';
-// import GroceryShop from './GroceryShop';
-// import { Likes } from './Likes';
+import Shopping from './Shopping';
 // import Instagram from './Instagram';
+
 
 function App() {
   return (
-    <div>
-    {/* <div>
-      <Instagram blog="Blog about Canada" posts="100 posts" followers="100 followers" following="100 following" />
-      <Instagram blog="Blog about USA" posts="200 posts" followers="200 followers" following="200 following"/>
-      <Instagram blog="Blog about England" posts="300 posts" followers="300 followers" following="300 following" />
-    </div> */}
-    
-      {/* <div>
-        <DatingProfile picture="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60" candidateName="Ben" age="32 years old" description="looking for an adventure" />
-        <DatingProfile picture="https://images.unsplash.com/photo-1581599129568-e33151627628?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60" candidateName="Steve" age="23 years old" description="searching for a soulmate" />
-        <DatingProfile picture="https://images.unsplash.com/photo-1590086782957-93c06ef21604?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1200&q=60" candidateName="Bob" age="45 years old" description="Tired of loneliness" />
-        
-      </div> */}
+    // <div>
+    // <Instagram blog="Blog about Canada" posts="100 posts" followers="100 followers" following =" 100 following"/>
+    // <Instagram blog="Blog about USA" posts="200 posts" followers="200 followers" following =" 200 following"/>
+    // <Instagram blog="Blog about England" posts="300 posts" followers="300 followers" following =" 300 following"/>
+    // </div>
 
-      {/* <div>
-        <GroceryShop image="https://images.unsplash.com/photo-1543168256-418811576931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1200&q=60" title="Bio Products" price="$15" description="Bio and healthy" />
-        <GroceryShop image="https://images.unsplash.com/photo-1561136594-7f68413baa99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dG9tYXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1200&q=60" title="Freshy Veggies" price="$20" description="Greeny and Healthy" />
-        <GroceryShop image="https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3VjdW1iZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1200&q=60" title="Farm Cucumber" price="$17" description="Freshly grabbed from the garden" />
-      </div> */}
+    // <div>
+    //   <DatingProfile img="https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"  name="Ben" age="30 years old" description="Looking for a right person"/>
+    //   <DatingProfile img="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1296&q=60" name="Ted" age="25 years old" description="Looking for an endless love"/>
+    //   <DatingProfile img="https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1296&q=60"  name="Charlie" age="35 years old" description="Looking for a wife"/>
+    // </div>
 
-      {/* <Likes /> */}
-      {/* <Followers /> */}
-      <Users />
-      </div>
+
+    // <div>
+    //   <Shopping img="https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8b3JhbmdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1296&q=60" name="Orange" price="5€" description="Juicy&Fresh"/>
+    //   <Shopping img="https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXBwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=1296&q=60" name="Apple" price="15€" description="Sweety"/>
+    //   <Shopping img="https://images.unsplash.com/photo-1604977042946-1eecc30f269e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y3VjdW1iZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=1296&q=60" name="Cucumber" price="20€" description="Bio"/>
+    // </div>
+
+
+    <Likes/>
+
+
   );
 }
 

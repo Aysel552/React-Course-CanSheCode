@@ -1,8 +1,7 @@
+import { Component } from 'react';
 
-import { Component } from "react";
 
-
-export class Likes extends Component{
+export class Likes extends Component {
     constructor() {
         super()
 
@@ -10,20 +9,18 @@ export class Likes extends Component{
             likes: 0
         }
     }
+
     updateLikes() {
-        this.setState({likes: this.state.likes + 1})
+        this.setState({likes:this.state.likes+1})
     }
 
-    eraseLikes() {
-        this.setState({likes: this.state.likes - 1})
-    }
     render() {
         return (
             <div>
-                <h1>{this.state.likes} LIKES</h1>
-                <button onClick={() => this.updateLikes()}>Likes</button>
-                <button onClick={() => this.eraseLikes()}>Unfollow</button>
+                <h1>{this.state.likes} Like</h1>
+                <button onClick={() => this.updateLikes()}>Like</button>
             </div>
         )
     }
+
 }

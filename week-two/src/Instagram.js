@@ -1,11 +1,24 @@
-// import
+// function Instagram(props) {
+//     console.log(props);
+//     return(
+//         <div>
+//             <div>
+//                 <h1>{props.blog}</h1>
+//                 <p>{props.posts }</p>
+//                 <p>{props.followers}</p>
+//                 <p>{props.following}</p>
+//             </div>
+//             </div>
+//     )
+// }
 
-// function
+// export default Instagram;
 
-// 2nd option: using props names:
+// Alternative Option: using props parameters such as blog,followers,posts.
 
 function Instagram({blog,posts,followers,following}) {
-    return (
+   
+    return(
         <div>
             <div>
                 <h1>{blog}</h1>
@@ -17,26 +30,4 @@ function Instagram({blog,posts,followers,following}) {
     )
 }
 
-
-
-//1st option using props
-
-// function Instagram(props) {
-//     return (
-//         <div>
-//             <div>
-//                 <h1>{props.blog}</h1>
-//                 <p>{props.posts}</p>
-//                 <p>{props.followers}</p>
-//                 <p>{props.following}</p>
-//             </div>
-//             </div>
-//     )
-// }
-
-
-// export
-
 export default Instagram;
-
-
