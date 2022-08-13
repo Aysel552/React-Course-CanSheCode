@@ -1,8 +1,10 @@
 
 import './App.css';
-import { Likes } from './Likes';
+import { Names } from './Names';
+// import { Likes } from './Likes';
+// import { Posts } from './Posts';
 // import DatingProfile from './DatingProfile';
-import Shopping from './Shopping';
+// import Shopping from './Shopping';
 // import Instagram from './Instagram';
 
 
@@ -28,7 +30,9 @@ function App() {
     // </div>
 
 
-    <Likes/>
+    // <Likes />
+    // <Posts />
+    <Names/>
 
 
   );

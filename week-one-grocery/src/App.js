@@ -3,6 +3,7 @@ import image from './grocery.jpeg';
 import './App.css';
 import ListOfProducts from './ListOfProducts';
 import ShoppingImage from './ShoppingImage';
+import { Posts } from './Posts';
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
       <ListOfProducts />
       <ShoppingImage />
       <button onClick={showAlert}>Submit</button>
+
+      <Posts />
       
         
     </div>
