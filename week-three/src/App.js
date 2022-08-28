@@ -7,10 +7,16 @@ import { GroceryList } from './GroceryList';
 function App() {
   return (
     <div className="App">
-      <img src={image} alt="Shopping" width="250px" />
-      <h1>Grocery List</h1>
-      <GroceryList/>
-      <img src={imageTwo} alt="Man" width="250px"/>
+      <div className='container'>
+        <img src={image} alt="Shopping" width="200px" />
+        </div>
+      <div className='container'>
+        <h1>Grocery List</h1>
+        </div>
+      <GroceryList />
+      <div className='container'>
+        <img src={imageTwo} alt="Man" width="200px" />
+        </div>
     </div>
   );
 }

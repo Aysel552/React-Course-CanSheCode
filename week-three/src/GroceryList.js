@@ -20,25 +20,39 @@ export class GroceryList extends Component {
             let listArray = this.state.groceryList
             listArray.push(input)
             this.setState({ groceryList: listArray, userInput: "" })
-            console.log(listArray)
         }
     }
+
+    deleteItem() {
+        let listArray = this.state.groceryList;
+        listArray = []; // 1st option 
+        // listArray.length = 0  2nd option
+
+
+        this.setState({groceryList: listArray})
+    }
+
+
         crossedWord(event) {
             const li = event.target;
             li.classList.toggle('crossed');
         }
     
+    onFormSubmit(e) {
+        e.preventDefault()
+    }
 
     render() {
         return (
             <div>
-            <div>
+                <form onSubmit={this.onFormSubmit}>
+            <div className='container'>
                 <input type='text' placeholder='What do you want to buy today?'
                     onChange={(e) => {this.onChangeEvent(e.target.value)}}
                     value={this.state.userInput} />
             </div>
-                <div>
-                    <button onClick={() => this.addItem(this.state.userInput)} >ADD</button>
+                <div className='container'>
+                    <button onClick={() => this.addItem(this.state.userInput)} className='btn add' >ADD</button>
                 </div>
                 
                 <ul>
@@ -47,8 +61,11 @@ export class GroceryList extends Component {
                             <img src={check} alt="Check" width="20px"/>
                             {item}</li>
                     ))}
-    
                 </ul>
+                <div className='container'>
+                    <button onClick={() => this.deleteItem()} className='btn delete'>Delete</button>
+                    </div>
+                    </form>
             </div>
             
         
