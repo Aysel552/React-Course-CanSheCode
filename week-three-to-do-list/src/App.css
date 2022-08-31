@@ -2,10 +2,61 @@ body{
   background-color:rgb(135, 184, 227)
 }
 
-
 .App{
   background-color:aliceblue;
   min-height: 80vh;
   width: 400px;
   margin: 20px auto;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: lightgray;
+}
+
+ul,li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    width: 70%;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.add {
+
+  background-image: linear-gradient(rgb(128, 255, 0),green,lightblue);
+  margin-top: 10px;
+}
+
+.delete {
+  background-image: linear-gradient(red, orangered,yellow);
+  margin-bottom: 10px;
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img{
+  border-radius: 10%;
 }
