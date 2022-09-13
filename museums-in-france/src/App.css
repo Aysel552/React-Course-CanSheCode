@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  background-color:beige
+}
+
+.showMoreButton {
+  border: none;
+  text-decoration: underline;
+}
+
+.btn{
+  padding: 10px;
+  background-color: rgb(233, 214, 110);
+  text-transform: uppercase;
+  margin: 20px;
+  border: 1px solid green;
+  
+}
