@@ -10,7 +10,6 @@ function Clothes({itemsForSale}) {
                         
                         <div className="product-info">
                             <h3>{name}</h3>
-                            <h4>{searchTerm}</h4>
                             <h4> € {price}</h4>
                         </div>
                     </div>

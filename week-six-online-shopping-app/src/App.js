@@ -2,12 +2,25 @@ import { useState } from 'react';
 import { data } from './data';
 import './App.css';
 import Clothes from './Clothes';
+import Buttons from './Buttons';
 
 function App() {
   const [clothes, setClothes] = useState(data);
+  const chosenClothes = (searchTerm) => {
+    const newClothes = data.filter(element => element.searchTerm === searchTerm);
+    setClothes(newClothes)
+
+    
+    
+  }
   return (
     <div >
-  <Clothes itemsForSale= {clothes} />
+      <div className='cont'>
+        <h2 className='back'>Free Standard Shipping</h2>
+      </div>
+      <Buttons filteredClothes={chosenClothes} />
+      <Clothes itemsForSale={clothes} />
+      
     </div>
   );
 }
