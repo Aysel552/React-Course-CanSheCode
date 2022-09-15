@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #cfd8dc;
+    padding: 15px;
+}
+
+.link {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card{
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+}
+.change{
+    padding: 10px 40px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    
+
+}
