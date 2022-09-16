@@ -1,6 +1,6 @@
 function Products({productsForSale}) {
     return (
-        <div>
+        <div className="products">
             {productsForSale.map((element => {
                 const { id, searchTerm, productName, price, image } = element;
 

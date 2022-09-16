@@ -18,7 +18,7 @@ nav {
     justify-content: center;
 }
 
-.product {
+.products {
     display: flex;
     flex-wrap: wrap;
 }
