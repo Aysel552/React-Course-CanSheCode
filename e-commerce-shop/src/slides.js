@@ -1,31 +1,31 @@
 export const slides = [
     {
-        id: 1,
-        image: "http://localhost:3001/imageOne.jpg"
+        title: "Fashion",
+        image: "http://localhost:3001/imageOne.jpg" 
     },
 
     {
-        id: 2,
+        title: "Jacket",
         image: "http://localhost:3001/imageTwo.jpg"
     },
 
     {
-        id: 3,
-        image: "http://localhost:3001/imageThree.jpg"
+        title: "Model",
+        image: "http://localhost:3001/imageThree.jpg",
     },
 
     {
-        id: 4,
+        title: "Girl",
         image: "http://localhost:3001/imageFour.jpg"
     },
 
     {
-        id: 5,
+        title: "Sandals",
         image: "http://localhost:3001/imageFive.jpg"
     },
 
     {
-        id: 6,
+        title: "Rock",
         image: "http://localhost:3001/imageSix.jpg"
     }
 ]

@@ -11,7 +11,7 @@ import Products from "./Products";
 import Buttons from "./Buttons";
 import Home from "./Home";
 import About from "./About";
-import Contact from "./Contact";
+import ContactForm from "./ContactForm";
 import "./App.css"
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/contact" element={<ContactForm/>} />
     </Routes>
     </Router>
   )

@@ -63,6 +63,7 @@ h3,h4{
 
 .sliderStyles{
     position: relative;
+    height: 100%;
 }
 
 .slideStyles{
@@ -71,6 +72,7 @@ h3,h4{
     border-radius: 10px;
     background-position: center;
     background-size: cover;
+    position: fixed;
 }
 
 .leftArrowStyles {
@@ -106,4 +108,9 @@ h3,h4{
     cursor: pointer;
 }
 
+
+.previous, .next{
+    padding: 10px;
+    background-color: #fff;
+}
 
