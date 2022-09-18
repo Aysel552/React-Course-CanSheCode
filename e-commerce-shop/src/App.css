@@ -114,3 +114,16 @@ h3,h4{
     background-color: #fff;
 }
 
+
+/* Contact Component */
+
+input {
+    padding: 16px;
+    margin: 20px 30px;
+    
+}
+
+.sendMessage{
+    margin: 20px auto
+}
+
