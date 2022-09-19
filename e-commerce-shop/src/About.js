@@ -3,54 +3,54 @@ import { slides } from "./slides";
 import "./App.css";
 
 function About() {
-    const [images, setImages] = useState(0);
-    const {image} = slides[images];
-    
-
-    const previousImage = () =>{
+    const [images,setImages] = useState(0);
+    const {description,image} = slides [images];
+    const [showMore,setShowMore] = useState(false);
+    const previousSlide = () =>{
         setImages((image =>{
-            images--;
-            if(images < 0){
+            image--;
+
+            if(image < 0){
                 return slides.length - 1
             }
-            return images
+            return image
         }))
     }
 
-    const nextImage = () => {
-        setImages((images =>{
-            images++
-            if(images > slides.length - 1){
-                images = 0;
-            }
-            return images
+    const nextSlide = () => {
+        setImages((image =>{
+            image++;
+        if (image > slides.length -1){
+            image=0
+        }
+        return image
         }))
     }
-    return (
+    return(
         <div>
-        <div className="container">
-            <h1>HISTORY OF THE BRAND</h1>
-        </div>
 
-        
-    <div className="container main">
-    <img src={image} alt="fashion"/>
-    </div>
-        <button onClick={previousImage}>❮</button>
-        <button onClick={nextImage}>❯</button> 
-
-        <div className="sliderStyles">
-            <div className="leftArrowStyles">
-            <button className="previous" onClick={previousImage}>❮</button>
+            <div className="container">
+                <h1>HISTORY OF THE BRAND</h1>
             </div>
-            <div className="rightArrowStyles">
-            <button className="next" onClick={nextImage}>❯</button>
-            </div>
-            <div className="slideStyles"></div>
-        </div> 
-        
-        </div>
 
+            <div className="container">
+                <p>{showMore ? description : description.substring(0,170) + "...."}
+                <button onClick={() => setShowMore(!showMore)}>{showMore ? 'Show Less' : 'Show More'}</button></p>
+            </div>
+
+            <div className="container">
+        <img src={image} alt='Clothes' width='500px'/>
+            </div>
+
+            <div>
+                <button onClick={previousSlide}>Previous</button>
+                <button onClick={nextSlide}>Next</button>
+            </div>
+
+
+
+
+        </div>
     )
 }
 
