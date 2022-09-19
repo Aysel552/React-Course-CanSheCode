@@ -1,7 +1,12 @@
 function ContactForm(){
     return(
         <div>
-            <h1>ContactForm</h1>
+            <div className="container">
+                <h1>ContactForm</h1>
+            </div>
+            <form>
+
+            </form>
         </div>
     )
 }

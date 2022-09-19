@@ -27,7 +27,7 @@ function About() {
         }))
     }
     return(
-        <div>
+        <div className="slideshowContainer">
 
             <div className="container">
                 <h1>HISTORY OF THE BRAND</h1>
@@ -43,8 +43,8 @@ function About() {
             </div>
 
             <div>
-                <button onClick={previousSlide}>Previous</button>
-                <button onClick={nextSlide}>Next</button>
+                <button className="previousButton" onClick={previousSlide}>❮</button>
+                <button className="nextButton" onClick={nextSlide}>❯</button>
             </div>
 
 
