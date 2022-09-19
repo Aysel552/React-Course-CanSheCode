@@ -13,6 +13,7 @@ import Home from "./Home";
 import About from "./About";
 import ContactForm from "./ContactForm";
 import "./App.css"
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
