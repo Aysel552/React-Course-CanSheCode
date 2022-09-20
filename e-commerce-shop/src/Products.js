@@ -8,10 +8,10 @@ function Products({productsForSale}) {
                     <div className="product-card" key={id}>
                         <img src={image} alt='Products' width='300px' height='500px' />
                         <div className="product-info">
-                            <h3>{productName}</h3>
+                            <h3 className="productName">{productName}</h3>
                             </div>
                             <div className="product-info">
-                            <h4>€ {price}</h4>
+                            <h4 className="productPrice">€ {price}</h4>
                             </div>
                         </div>
                     

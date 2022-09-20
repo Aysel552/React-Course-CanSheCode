@@ -39,7 +39,7 @@ function About() {
             </div>
 
             <div className="container">
-        <img src={image} alt='Clothes' width='500px'/>
+        <img className="slider" src={image} alt='Clothes' width='500px'/>
             </div>
 
             <div>

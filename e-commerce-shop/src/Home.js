@@ -12,7 +12,7 @@ function Home() {
   return (
     <div>
       <div className='container'>
-        <h1>LEANI FASHION SHOP</h1>
+        <h1 className="mainHeading">MASSIMO DUTTI ONLINE SHOP</h1>
       </div>
 
       <Buttons filteredProducts = {chosenProducts} />

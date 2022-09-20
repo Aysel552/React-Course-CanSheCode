@@ -21,7 +21,7 @@ import "./App.css";
     return(
         <div className="main">
         <div className="container">
-            <h2 className=" heading mb-5">Contact Form</h2>
+            <h2 className="heading mb-5">Contact Form</h2>
             </div>
             <form onSubmit={onSubmit}>
                 <div className="container mb-4 w-50">
@@ -42,7 +42,7 @@ import "./App.css";
                 </div>
                 </div>
 
-                <div className="container mb-4 w-50">
+                <div className="container mb-4 w-75">
                     <div className="container">
                 <label className="form-label" htmlFor="message">Message</label>
                 <div className="container w-100">

@@ -36,7 +36,7 @@ export const data = [
     {
         id: 5,
         searchTerm: 'dress',
-        productName: 'Mock-neck Button detail Lantern Sleeve Dress',
+        productName: 'Lantern Sleeve Dress',
         image: 'https://i.pinimg.com/564x/03/95/82/039582785b91c84254fd61d4aa59b8d1.jpg',
         price: 500.00
     },
@@ -44,7 +44,7 @@ export const data = [
     {
         id: 6,
         searchTerm: 'dress',
-        productName: 'Ruched Sleeve Wide Waistband Buttoned Dress',
+        productName: 'Buttoned Dress',
         image: 'https://i.pinimg.com/564x/56/70/40/567040d5b7a45d46722e0b4ea2e9313c.jpg',
         price: 210.00
     },
@@ -71,7 +71,7 @@ export const data = [
     {
         id: 9,
         searchTerm: 'jeans',
-        productName: 'Flared High Waisted Jeans',
+        productName: 'High Waisted Jeans',
         image: 'https://i.pinimg.com/564x/70/f8/22/70f822c377227b7bb2fac501b1788129.jpg',
         price: 217.00
     },
@@ -170,7 +170,7 @@ export const data = [
     {
         id: 21,
         searchTerm: 'jacket',
-        productName: 'Camel Color Knitted Jacket',
+        productName: 'Camel Knitted Jacket',
         image: 'https://i.pinimg.com/474x/09/3b/b5/093bb56180ba3efb93312e2e75e8e039.jpg',
         price: 250.00
     },
@@ -178,7 +178,7 @@ export const data = [
     {
         id: 22,
         searchTerm: 'jacket',
-        productName: 'Camel Color Knitted Cardigan ',
+        productName: 'Camel Knitted Cardigan ',
         image: 'https://i.pinimg.com/474x/71/2c/ed/712cede80113a5c84374bb61da01efd2.jpg',
         price: 230.00
     },

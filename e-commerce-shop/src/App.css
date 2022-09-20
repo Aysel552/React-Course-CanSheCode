@@ -5,8 +5,9 @@ nav {
     padding: 15px;
 }
 
-h1{
+.mainHeading{
     letter-spacing: 2px;
+    margin-top: 50px;
 }
 
 .link {
@@ -51,16 +52,26 @@ h1{
 }
 
 h3,h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin: 15px auto;
+    margin: 0 auto;
 }
+
+.productName, .productPrice{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.productPrice{
+    margin-left: 90px;
+}
+
 
 
 /* About Component */
 
-img{
+.slider{
     width: 120%;
+    border-radius: 10px;
     
 }
 
@@ -117,16 +128,22 @@ img{
 }
 
 .heading{
-    color: #fff;
+    color: red;
     margin-top: 300px;
+    font-size: 52px;
+    margin-left: 90px;
 }
 
 label{
     color: red;
     font-weight: bold;
+    text-align: center;
+    margin: 20px;
 }
 
 .btn{
     width: 20%;
     margin-top: 10px;
+    margin-left: 50px;
 }
+
